@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/select2/3.5.4/select2.min.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-css/1.4.6/select2-bootstrap.min.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style2.css') }}">
+  </head>
+  <body>
+  <div class="container">
+  <div class="page-header">
+    <h1>select2 with pagination</h1>
+    <p>for improved performance with large data sets (20 000 items)</p>
+    </div>
+        <input id="test" style="width:100%;" placeholder="type a number, scroll for more results" />
+    </div>
+    <!--[if lt IE 9]>
+
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+    <script type="text/javascript" src='//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+
+    <script type="text/javascript" src='//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <!--<![endif]-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.15.0/lodash.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/select2/3.5.4/select2.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>
